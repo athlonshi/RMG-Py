@@ -535,7 +535,7 @@ class Network:
 		# Return the chosen energy grains
 		return self.getEnergyGrains(Emin, Emax, grainSize, numGrains)
 
-	def calculateRateCoefficients(self, Tlist, Plist, Elist, method, errorCheck=True):
+	def calculateRateCoefficients(self, Tlist, Plist, Elist, method, errorCheck=True, nProd=0):
 		"""
 		Calculate the phenomenological rate coefficients for the network.
 		"""
@@ -588,7 +588,7 @@ class Network:
 							
 					# Determine phenomenological rate coefficients using approximate
 					# method
-					K[t,p,:,:] = self.applyApproximateMethod(T, P, Elist, method, errorCheck)
+					K[t,p,:,:] = self.applyApproximateMethod(T, P, Elist, method, errorCheck, nProd)
 
 		except UnirxnNetworkException, e:
 
@@ -611,7 +611,7 @@ class Network:
 
 		return K
 
-	def applyApproximateMethod(self, T, P, Elist, method, errorCheck=True):
+	def applyApproximateMethod(self, T, P, Elist, method, errorCheck=True, nProd=0):
 		"""
 		Apply the approximate method specified in `method` to estimate the
 		phenomenological rate coefficients for the network. This function
@@ -623,7 +623,7 @@ class Network:
 
 		# Matrix and vector size indicators
 		nIsom = self.numUniIsomers()
-		nProd = self.numMultiIsomers()
+		nReac = self.numMultiIsomers() - nProd
 		nGrains = len(Elist)
 
 		dE = Elist[1] - Elist[0]
@@ -635,18 +635,21 @@ class Network:
 		
 		# If there are no product channels, we must temporarily create a fake
 		# one; this is because f2py can't handle matrices with a dimension of zero
-		if nProd == 0: nProd = 1
+		usingFakeProduct = False
+		if nReac == 0 and nProd == 0:
+			nReac = 1
+			usingFakeProduct = True
 
 		# Active-state energy of each isomer
-		Eres = numpy.zeros([nIsom+nProd], numpy.float64)
+		Eres = numpy.zeros([nIsom+nReac+nProd], numpy.float64)
 		for i, isomer in enumerate(self.isomers):
 			Eres[i] = isomer.getActiveSpaceEnergy(self.pathReactions)
 		
 		# Isomerization, dissociation, and association microcanonical rate
 		# coefficients, respectively
 		Kij = numpy.zeros([nIsom,nIsom,nGrains], numpy.float64)
-		Gnj = numpy.zeros([nProd,nIsom,nGrains], numpy.float64)
-		Fim = numpy.zeros([nIsom,nProd,nGrains], numpy.float64)
+		Gnj = numpy.zeros([nReac+nProd,nIsom,nGrains], numpy.float64)
+		Fim = numpy.zeros([nIsom,nReac,nGrains], numpy.float64)
 		for reaction in self.pathReactions:
 			i = self.indexOf(reaction.reactant)
 			j = self.indexOf(reaction.product)
@@ -655,9 +658,11 @@ class Network:
 				Kij[i,j,:] = reaction.kb
 			elif reaction.isDissociation():
 				Gnj[j-nIsom,i,:] = reaction.kf
-				Fim[i,j-nIsom,:] = reaction.kb
+				if j - nIsom < nReac:
+					Fim[i,j-nIsom,:] = reaction.kb
 			elif reaction.isAssociation():
-				Fim[j,i-nIsom,:] = reaction.kf
+				if i - nIsom < nReac:
+					Fim[j,i-nIsom,:] = reaction.kf
 				Gnj[i-nIsom,j,:] = reaction.kb
 
 		if method.lower() == 'modifiedstrongcollision':
@@ -670,7 +675,7 @@ class Network:
 			# Apply modified strong collision method
 			import msc
 			K, msg = msc.estimateratecoefficients_msc(T, P, Elist, collFreq, densStates, Eres,
-				Kij, Fim, Gnj, nIsom, nProd, nGrains)
+				Kij, Fim, Gnj, nisom=nIsom, nreac=nReac, nprod=nProd, ngrains=nGrains)
 			msg = msg.strip()
 			if msg != '':
 				raise UnirxnNetworkException('Unable to apply modified strong collision method: %s' % msg)
@@ -700,17 +705,17 @@ class Network:
 				# Apply reservoir state method
 				import rs
 				K, msg = rs.estimateratecoefficients_rs(T, P, Elist, Mcoll, densStates, E0, Eres,
-					Kij, Fim, Gnj, dEdown, nIsom, nProd, nGrains)
+					Kij, Fim, Gnj, dEdown, nisom=nIsom, nreac=nReac, nprod=nProd, ngrains=nGrains)
 				msg = msg.strip()
 			
 			elif method.lower() == 'chemicaleigenvalues':
 
 				# Ground-state energy for each isomer
-				E0 = numpy.zeros([nIsom+nProd], numpy.float64)
-				for i in range(nIsom+nProd): E0[i] = self.isomers[i].E0
+				E0 = numpy.zeros([nIsom+nReac+nProd], numpy.float64)
+				for i in range(nIsom+nReac+nProd): E0[i] = self.isomers[i].E0
 
 				# Use free energy to determine equilibrium ratios of each isomer and product channel
-				eqRatios = numpy.zeros(nIsom+nProd, numpy.float64)
+				eqRatios = numpy.zeros(nIsom+nReac+nProd, numpy.float64)
 				for i, isom in enumerate(self.isomers):
 					G = sum([spec.getFreeEnergy(T) for spec in isom.species])
 					eqRatios[i] = math.exp(-G / constants.R / T)
@@ -719,7 +724,7 @@ class Network:
 				# Apply chemically-significant eigenvalue method
 				import cse
 				K, msg = cse.estimateratecoefficients_cse(T, P, Elist, Mcoll, E0,
-					densStates, eqRatios, Kij, Fim, Gnj, nIsom, nProd, nGrains)
+					densStates, eqRatios, Kij, Fim, Gnj, nisom=nIsom, nreac=nReac, nprod=nProd, ngrains=nGrains)
 				msg = msg.strip()
 
 				#print K
@@ -736,7 +741,7 @@ class Network:
 
 		# If we had to create a temporary (fake) product channel, then don't
 		# return the last row and column of the rate coefficient matrix
-		if self.numMultiIsomers() == 0:
+		if usingFakeProduct:
 			return K[:-1,:-1]
 		else:
 			return K
