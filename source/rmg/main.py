@@ -46,7 +46,7 @@ import settings
 import species
 import reaction
 import unirxn.network
-
+import chemkin_io
 ################################################################################
 
 def execute(inputFile, options):
@@ -113,7 +113,6 @@ def execute(inputFile, options):
 
 	# Read input file
 	reactionModel, coreSpecies, reactionSystems = io.readInputFile(inputFile)
-	
 	# Initialize reaction model
 	if options.restart:
 		import gzip
@@ -153,11 +152,9 @@ def execute(inputFile, options):
 	if settings.unimolecularReactionNetworks:
 		reactionModel.updateUnimolecularReactionNetworks()
 		logging.info('')
-
 	# Main RMG loop
 	done = False
 	while not done:
-
 		done = True
 		objectsToEnlarge = []
 		for index, reactionSystem in enumerate(reactionSystems):
@@ -224,7 +221,12 @@ def execute(inputFile, options):
 			restartSize.append(os.path.getsize(os.path.join(settings.outputDirectory,'restart.pkl')) / 1.0e6)
 			saveExecutionStatistics(execTime, coreSpeciesCount, coreReactionCount, edgeSpeciesCount, edgeReactionCount, memoryUse, restartSize)
 			generateExecutionPlots(execTime, coreSpeciesCount, coreReactionCount, edgeSpeciesCount, edgeReactionCount, memoryUse, restartSize)
-
+# Yu Shi
+                chemkin_io.writeMech(settings.outputDirectory,reactionModel,reactionSystems)
+                print "chem.inp has been written!"
+                chemkin_io.writeTherm(settings.outputDirectory,reactionModel,reactionSystems)
+                print "thermo.dat has been written!"
+                time.sleep(3)
 		logging.info('')
 		
 		# Consider stopping gracefully if the next iteration might take us
