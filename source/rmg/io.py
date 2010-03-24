@@ -618,7 +618,6 @@ def writeOutputFile(fstr, reactionModel, reactionSystems):
 
 		# Output the thermo data
 		spec.thermoData.toXML(document, element)
-
 	# Process core reactions list
 	reactionList = document.createElement('reactionList', rootElement)
 	for rxn in reactionModel.core.reactions:

@@ -1356,7 +1356,17 @@ class Structure:
 
 		return sigma * 1e-10, epsilon * constants.kB
 
+
+        def countNumberOfAtomElement(self,atom,element):
+                """
+                Given a atom label, calculate the number of the element atom in a species structure
+                """
+                elementcount = 0
+                for atom in self.atoms():
+                    if (element == atom.atomType.element.symbol):elementcount += 1
+                return elementcount
 ################################################################################
+                
 
 if __name__ == '__main__':
 

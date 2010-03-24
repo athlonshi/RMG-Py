@@ -1,0 +1,4114 @@
+<?xml version="1.0" ?>
+<rmginput>
+	<title>
+		Automatically-generated unimolecular reaction network
+	</title>
+	<databaseList>
+		<database type="general">
+			RMG_database
+		</database>
+	</databaseList>
+	<speciesList>
+		<species id="[CH3]">
+			<structure format="SMILES">
+				[CH3]
+			</structure>
+			<lennardJones>
+				<sigma units="m">
+					3.758e-10
+				</sigma>
+				<epsilon units="J">
+					2.0516464944e-21
+				</epsilon>
+			</lennardJones>
+			<thermoData format="group additivity">
+				<enthalpyOfFormation units="kJ/mol">
+					145.626705742
+				</enthalpyOfFormation>
+				<entropyOfFormation units="J/(mol*K)">
+					193.990187396
+				</entropyOfFormation>
+				<heatCapacities units="J/(mol*K)">
+					38.6127637571 41.930957607 45.1067544562 48.0370906858 52.9611970605 56.7270487806 63.6896774586
+				</heatCapacities>
+			</thermoData>
+			<groundStateEnergy units="kJ/mol">
+				145.626705742
+			</groundStateEnergy>
+			<spectralData>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						676.731440373
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1269.55437082
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1269.61011577
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						4000.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						4000.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						4000.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<symmetryNumber>
+					1
+				</symmetryNumber>
+			</spectralData>
+		</species>
+		<species id="C(=C)C=[CH]">
+			<structure format="SMILES">
+				C(=C)C=[CH]
+			</structure>
+			<lennardJones>
+				<sigma units="m">
+					5.687e-10
+				</sigma>
+				<epsilon units="J">
+					7.3367762256e-21
+				</epsilon>
+			</lennardJones>
+			<thermoData format="group additivity">
+				<enthalpyOfFormation units="kJ/mol">
+					356.368681631
+				</enthalpyOfFormation>
+				<entropyOfFormation units="J/(mol*K)">
+					290.20420289
+				</entropyOfFormation>
+				<heatCapacities units="J/(mol*K)">
+					79.6385004477 98.2595822791 113.387555056 125.5267414 142.873608934 154.405020527 174.746249782
+				</heatCapacities>
+			</thermoData>
+			<groundStateEnergy units="kJ/mol">
+				356.368681631
+			</groundStateEnergy>
+			<spectralData>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2950.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3100.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1380.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						975.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1025.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3120.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						650.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						792.5
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2995.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3025.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						975.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1000.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1300.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1375.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						400.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						500.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1630.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1680.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						205.921893649
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						240.323640813
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<hinderedRotor>
+					<frequency units="cm^-1">
+						629.053407307
+					</frequency>
+					<barrier units="cm^-1">
+						1364.42065902
+					</barrier>
+					<degeneracy>
+						1
+					</degeneracy>
+				</hinderedRotor>
+				<symmetryNumber>
+					1
+				</symmetryNumber>
+			</spectralData>
+		</species>
+		<species id="CC=CC=C">
+			<structure format="SMILES">
+				CC=CC=C
+			</structure>
+			<lennardJones>
+				<sigma units="m">
+					5.784e-10
+				</sigma>
+				<epsilon units="J">
+					4.7093985144e-21
+				</epsilon>
+			</lennardJones>
+			<thermoData format="group additivity">
+				<enthalpyOfFormation units="kJ/mol">
+					76.1753166417
+				</enthalpyOfFormation>
+				<entropyOfFormation units="J/(mol*K)">
+					320.30421116
+				</entropyOfFormation>
+				<heatCapacities units="J/(mol*K)">
+					102.683352217 128.546686409 151.174191221 170.432034158 199.406814901 218.81401059 251.994794527
+				</heatCapacities>
+			</thermoData>
+			<groundStateEnergy units="kJ/mol">
+				76.1753166417
+			</groundStateEnergy>
+			<spectralData>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2950.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3100.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1380.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						975.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1025.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2995.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3010.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3025.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						975.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						987.5
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1000.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1300.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1337.5
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1375.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						400.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						450.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						500.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1630.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1655.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1680.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2750.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2800.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2850.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1350.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1500.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						750.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1050.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1375.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						344.63515459
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						344.609289852
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						347.811617033
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<hinderedRotor>
+					<frequency units="cm^-1">
+						344.208800349
+					</frequency>
+					<barrier units="cm^-1">
+						1133.94044516
+					</barrier>
+					<degeneracy>
+						2
+					</degeneracy>
+				</hinderedRotor>
+				<symmetryNumber>
+					1
+				</symmetryNumber>
+			</spectralData>
+		</species>
+		<species id="C(=C[CH2])C=C">
+			<structure format="SMILES">
+				C(=C[CH2])C=C
+			</structure>
+			<lennardJones>
+				<sigma units="m">
+					5.784e-10
+				</sigma>
+				<epsilon units="J">
+					4.7093985144e-21
+				</epsilon>
+			</lennardJones>
+			<thermoData format="group additivity">
+				<enthalpyOfFormation units="kJ/mol">
+					192.897542265
+				</enthalpyOfFormation>
+				<entropyOfFormation units="J/(mol*K)">
+					317.194190208
+				</entropyOfFormation>
+				<heatCapacities units="J/(mol*K)">
+					94.8445133488 120.896623379 143.135573371 161.762551822 189.617239159 208.597757649 241.565143613
+				</heatCapacities>
+			</thermoData>
+			<groundStateEnergy units="kJ/mol">
+				192.897542265
+			</groundStateEnergy>
+			<spectralData>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3000.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3100.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						440.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						815.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1455.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2950.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3100.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1380.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						975.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1025.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2995.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3010.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3025.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						975.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						987.5
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1000.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1300.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1337.5
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1375.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						400.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						450.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						500.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1630.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1655.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1680.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						212.485753277
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						672.261628883
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						583.802876396
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<hinderedRotor>
+					<frequency units="cm^-1">
+						607.824937517
+					</frequency>
+					<barrier units="cm^-1">
+						1410.29634632
+					</barrier>
+					<degeneracy>
+						2
+					</degeneracy>
+				</hinderedRotor>
+				<symmetryNumber>
+					1
+				</symmetryNumber>
+			</spectralData>
+		</species>
+		<species id="[H]">
+			<structure format="SMILES">
+				[H]
+			</structure>
+			<lennardJones>
+				<sigma units="m">
+					5.949e-10
+				</sigma>
+				<epsilon units="J">
+					5.5129370472e-21
+				</epsilon>
+			</lennardJones>
+			<thermoData format="group additivity">
+				<enthalpyOfFormation units="kJ/mol">
+					217.995834073
+				</enthalpyOfFormation>
+				<entropyOfFormation units="J/(mol*K)">
+					114.71063579
+				</entropyOfFormation>
+				<heatCapacities units="J/(mol*K)">
+					20.78618 20.78618 20.78618 20.78618 20.78618 20.78618 20.78618
+				</heatCapacities>
+			</thermoData>
+			<groundStateEnergy units="kJ/mol">
+				217.995834073
+			</groundStateEnergy>
+		</species>
+		<species id="C[C]=CC=C">
+			<structure format="SMILES">
+				C[C]=CC=C
+			</structure>
+			<lennardJones>
+				<sigma units="m">
+					5.784e-10
+				</sigma>
+				<epsilon units="J">
+					4.7093985144e-21
+				</epsilon>
+			</lennardJones>
+			<thermoData format="group additivity">
+				<enthalpyOfFormation units="kJ/mol">
+					314.232573206
+				</enthalpyOfFormation>
+				<entropyOfFormation units="J/(mol*K)">
+					327.877950862
+				</entropyOfFormation>
+				<heatCapacities units="J/(mol*K)">
+					101.219060391 123.510668757 143.103170847 159.863051816 185.300186663 202.551137144 232.132239699
+				</heatCapacities>
+			</thermoData>
+			<groundStateEnergy units="kJ/mol">
+				314.232573206
+			</groundStateEnergy>
+			<spectralData>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2950.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3100.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1380.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						975.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1025.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1685.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						370.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2995.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3025.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						975.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1000.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1300.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1375.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						400.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						500.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1630.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1680.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2750.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2800.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2850.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1350.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1500.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						750.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1050.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1375.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						345.29236459
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						346.975847289
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						342.145972671
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<hinderedRotor>
+					<frequency units="cm^-1">
+						346.478634058
+					</frequency>
+					<barrier units="cm^-1">
+						972.638099069
+					</barrier>
+					<degeneracy>
+						2
+					</degeneracy>
+				</hinderedRotor>
+				<symmetryNumber>
+					1
+				</symmetryNumber>
+			</spectralData>
+		</species>
+		<species id="C=[CH]">
+			<structure format="SMILES">
+				C=[CH]
+			</structure>
+			<lennardJones>
+				<sigma units="m">
+					4.443e-10
+				</sigma>
+				<epsilon units="J">
+					1.5283799928e-21
+				</epsilon>
+			</lennardJones>
+			<thermoData format="group additivity">
+				<enthalpyOfFormation units="kJ/mol">
+					299.639247751
+				</enthalpyOfFormation>
+				<entropyOfFormation units="J/(mol*K)">
+					236.835170642
+				</entropyOfFormation>
+				<heatCapacities units="J/(mol*K)">
+					42.0285797314 49.9653537535 57.0505384157 63.2050699899 72.7680314035 79.4701779333 91.287116545
+				</heatCapacities>
+			</thermoData>
+			<groundStateEnergy units="kJ/mol">
+				299.639247751
+			</groundStateEnergy>
+			<spectralData>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2950.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3100.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1380.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						975.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1025.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3120.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						650.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						792.5
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1988.13783633
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<symmetryNumber>
+					1
+				</symmetryNumber>
+			</spectralData>
+		</species>
+		<species id="CC=[CH]">
+			<structure format="SMILES">
+				CC=[CH]
+			</structure>
+			<lennardJones>
+				<sigma units="m">
+					5.118e-10
+				</sigma>
+				<epsilon units="J">
+					3.2735220984e-21
+				</epsilon>
+			</lennardJones>
+			<thermoData format="group additivity">
+				<enthalpyOfFormation units="kJ/mol">
+					266.707849138
+				</enthalpyOfFormation>
+				<entropyOfFormation units="J/(mol*K)">
+					272.751336046
+				</entropyOfFormation>
+				<heatCapacities units="J/(mol*K)">
+					64.2429028081 77.0923500173 89.1978314006 100.086855703 117.36747784 129.321925567 149.690187677
+				</heatCapacities>
+			</thermoData>
+			<groundStateEnergy units="kJ/mol">
+				266.707849138
+			</groundStateEnergy>
+			<spectralData>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3120.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						650.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						792.5
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3010.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						987.5
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1337.5
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						450.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1655.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2750.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2800.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2850.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1350.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1500.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						750.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1050.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1375.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1754.97104149
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<hinderedRotor>
+					<frequency units="cm^-1">
+						180.0
+					</frequency>
+					<barrier units="cm^-1">
+						1053.9609762
+					</barrier>
+					<degeneracy>
+						1
+					</degeneracy>
+				</hinderedRotor>
+				<symmetryNumber>
+					1
+				</symmetryNumber>
+			</spectralData>
+		</species>
+		<species id="CC=[C]C=C">
+			<structure format="SMILES">
+				CC=[C]C=C
+			</structure>
+			<lennardJones>
+				<sigma units="m">
+					5.784e-10
+				</sigma>
+				<epsilon units="J">
+					4.7093985144e-21
+				</epsilon>
+			</lennardJones>
+			<thermoData format="group additivity">
+				<enthalpyOfFormation units="kJ/mol">
+					275.739466429
+				</enthalpyOfFormation>
+				<entropyOfFormation units="J/(mol*K)">
+					323.27452167
+				</entropyOfFormation>
+				<heatCapacities units="J/(mol*K)">
+					103.269083708 125.618443589 145.080078339 161.745124639 187.597808923 206.096831103 238.733444071
+				</heatCapacities>
+			</thermoData>
+			<groundStateEnergy units="kJ/mol">
+				275.739466429
+			</groundStateEnergy>
+			<spectralData>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2950.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3100.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1380.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						975.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1025.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1685.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						370.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2995.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3025.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						975.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1000.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1300.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1375.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						400.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						500.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1630.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1680.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2750.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2800.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2850.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1350.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1500.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						750.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1050.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1375.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						180.076946961
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						755.481330403
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						222.361071234
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<hinderedRotor>
+					<frequency units="cm^-1">
+						180.015745683
+					</frequency>
+					<barrier units="cm^-1">
+						1424.5630102
+					</barrier>
+					<degeneracy>
+						2
+					</degeneracy>
+				</hinderedRotor>
+				<symmetryNumber>
+					1
+				</symmetryNumber>
+			</spectralData>
+		</species>
+		<species id="CC=C[C]=C">
+			<structure format="SMILES">
+				CC=C[C]=C
+			</structure>
+			<lennardJones>
+				<sigma units="m">
+					5.784e-10
+				</sigma>
+				<epsilon units="J">
+					4.7093985144e-21
+				</epsilon>
+			</lennardJones>
+			<thermoData format="group additivity">
+				<enthalpyOfFormation units="kJ/mol">
+					275.739466429
+				</enthalpyOfFormation>
+				<entropyOfFormation units="J/(mol*K)">
+					323.27452167
+				</entropyOfFormation>
+				<heatCapacities units="J/(mol*K)">
+					103.269083709 125.618443589 145.080078338 161.745124639 187.597808923 206.096831104 238.733444071
+				</heatCapacities>
+			</thermoData>
+			<groundStateEnergy units="kJ/mol">
+				275.739466429
+			</groundStateEnergy>
+			<spectralData>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2950.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3100.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1380.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						975.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1025.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1685.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						370.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2995.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3025.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						975.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1000.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1300.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1375.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						400.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						500.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1630.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1680.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2750.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2800.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2850.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1350.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1500.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						750.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1050.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1375.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						180.076959791
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						755.476825249
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						222.365326206
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<hinderedRotor>
+					<frequency units="cm^-1">
+						180.015755841
+					</frequency>
+					<barrier units="cm^-1">
+						1424.56292914
+					</barrier>
+					<degeneracy>
+						2
+					</degeneracy>
+				</hinderedRotor>
+				<symmetryNumber>
+					1
+				</symmetryNumber>
+			</spectralData>
+		</species>
+		<species id="CC=CC=[CH]">
+			<structure format="SMILES">
+				CC=CC=[CH]
+			</structure>
+			<lennardJones>
+				<sigma units="m">
+					5.784e-10
+				</sigma>
+				<epsilon units="J">
+					4.7093985144e-21
+				</epsilon>
+			</lennardJones>
+			<thermoData format="group additivity">
+				<enthalpyOfFormation units="kJ/mol">
+					323.437283018
+				</enthalpyOfFormation>
+				<entropyOfFormation units="J/(mol*K)">
+					326.120368294
+				</entropyOfFormation>
+				<heatCapacities units="J/(mol*K)">
+					101.852823525 125.386578543 145.534848041 162.408527112 187.473055371 204.256768161 233.149320914
+				</heatCapacities>
+			</thermoData>
+			<groundStateEnergy units="kJ/mol">
+				323.437283018
+			</groundStateEnergy>
+			<spectralData>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3120.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						650.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						792.5
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2995.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3010.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3025.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						975.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						987.5
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1000.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1300.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1337.5
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1375.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						400.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						450.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						500.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1630.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1655.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1680.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2750.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2800.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2850.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1350.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1500.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						750.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1050.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1375.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						180.000011739
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						180.000059597
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<hinderedRotor>
+					<frequency units="cm^-1">
+						203.700745246
+					</frequency>
+					<barrier units="cm^-1">
+						800.98566753
+					</barrier>
+					<degeneracy>
+						1
+					</degeneracy>
+				</hinderedRotor>
+				<hinderedRotor>
+					<frequency units="cm^-1">
+						197.723126545
+					</frequency>
+					<barrier units="cm^-1">
+						1761.9786192
+					</barrier>
+					<degeneracy>
+						1
+					</degeneracy>
+				</hinderedRotor>
+				<symmetryNumber>
+					1
+				</symmetryNumber>
+			</spectralData>
+		</species>
+		<species id="C(C=C)[CH][CH2]">
+			<structure format="SMILES">
+				C(C=C)[CH][CH2]
+			</structure>
+			<lennardJones>
+				<sigma units="m">
+					5.784e-10
+				</sigma>
+				<epsilon units="J">
+					4.7093985144e-21
+				</epsilon>
+			</lennardJones>
+			<thermoData format="group additivity">
+				<enthalpyOfFormation units="kJ/mol">
+					595.815944192
+				</enthalpyOfFormation>
+				<entropyOfFormation units="J/(mol*K)">
+					383.089512788
+				</entropyOfFormation>
+				<heatCapacities units="J/(mol*K)">
+					100.022354209 120.954294277 141.491062689 160.470087657 191.280705919 212.789917966 248.977492455
+				</heatCapacities>
+			</thermoData>
+			<groundStateEnergy units="kJ/mol">
+				595.815944192
+			</groundStateEnergy>
+			<spectralData>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3000.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3100.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						440.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						815.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1455.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2750.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2850.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1437.5
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1250.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1305.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						750.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						350.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2950.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3100.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1380.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						975.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1025.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3025.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						407.5
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1350.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						352.5
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3010.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						987.5
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1337.5
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						450.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1655.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1505.02410274
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1504.63906793
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1505.15062571
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						180.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<hinderedRotor>
+					<frequency units="cm^-1">
+						287.271425821
+					</frequency>
+					<barrier units="cm^-1">
+						208.632319707
+					</barrier>
+					<degeneracy>
+						3
+					</degeneracy>
+				</hinderedRotor>
+				<symmetryNumber>
+					1
+				</symmetryNumber>
+			</spectralData>
+		</species>
+		<species id="C(C=C[CH2])[CH2]">
+			<structure format="SMILES">
+				C(C=C[CH2])[CH2]
+			</structure>
+			<lennardJones>
+				<sigma units="m">
+					5.784e-10
+				</sigma>
+				<epsilon units="J">
+					4.7093985144e-21
+				</epsilon>
+			</lennardJones>
+			<thermoData format="group additivity">
+				<enthalpyOfFormation units="kJ/mol">
+					540.628551403
+				</enthalpyOfFormation>
+				<entropyOfFormation units="J/(mol*K)">
+					350.798348013
+				</entropyOfFormation>
+				<heatCapacities units="J/(mol*K)">
+					103.009022995 127.944883174 150.485574448 170.096262329 200.000970312 219.831052606 252.98785906
+				</heatCapacities>
+			</thermoData>
+			<groundStateEnergy units="kJ/mol">
+				540.628551403
+			</groundStateEnergy>
+			<spectralData>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3000.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3033.33333333
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3066.66666667
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3100.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						415.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						465.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						780.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						850.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1435.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1475.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2750.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2850.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1437.5
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1250.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1305.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						750.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						350.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2995.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3025.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						975.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1000.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1300.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1375.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						400.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						500.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1630.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1680.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						365.162084684
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						363.958491069
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						361.571224266
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<hinderedRotor>
+					<frequency units="cm^-1">
+						363.1156414
+					</frequency>
+					<barrier units="cm^-1">
+						10.0
+					</barrier>
+					<degeneracy>
+						3
+					</degeneracy>
+				</hinderedRotor>
+				<symmetryNumber>
+					1
+				</symmetryNumber>
+			</spectralData>
+		</species>
+		<species id="C[CH]C=C[CH2]">
+			<structure format="SMILES">
+				C[CH]C=C[CH2]
+			</structure>
+			<lennardJones>
+				<sigma units="m">
+					5.784e-10
+				</sigma>
+				<epsilon units="J">
+					4.7093985144e-21
+				</epsilon>
+			</lennardJones>
+			<thermoData format="group additivity">
+				<enthalpyOfFormation units="kJ/mol">
+					475.777037495
+				</enthalpyOfFormation>
+				<entropyOfFormation units="J/(mol*K)">
+					320.567470496
+				</entropyOfFormation>
+				<heatCapacities units="J/(mol*K)">
+					99.7931019457 126.013499107 149.764355001 170.423625352 201.780580962 222.313406281 256.332688773
+				</heatCapacities>
+			</thermoData>
+			<groundStateEnergy units="kJ/mol">
+				475.777037495
+			</groundStateEnergy>
+			<spectralData>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3000.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3100.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						440.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						815.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1455.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3025.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						407.5
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1350.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						352.5
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2995.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3025.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						975.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1000.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1300.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1375.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						400.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						500.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1630.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1680.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2750.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2800.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2850.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1350.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1500.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						750.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1050.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1375.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						358.612151922
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						357.824153539
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						359.513891559
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<hinderedRotor>
+					<frequency units="cm^-1">
+						358.531095461
+					</frequency>
+					<barrier units="cm^-1">
+						10.0
+					</barrier>
+					<degeneracy>
+						3
+					</degeneracy>
+				</hinderedRotor>
+				<symmetryNumber>
+					1
+				</symmetryNumber>
+			</spectralData>
+		</species>
+		<species id="C(C=C)C=C">
+			<structure format="SMILES">
+				C(C=C)C=C
+			</structure>
+			<lennardJones>
+				<sigma units="m">
+					5.784e-10
+				</sigma>
+				<epsilon units="J">
+					4.7093985144e-21
+				</epsilon>
+			</lennardJones>
+			<thermoData format="group additivity">
+				<enthalpyOfFormation units="kJ/mol">
+					106.300819818
+				</enthalpyOfFormation>
+				<entropyOfFormation units="J/(mol*K)">
+					334.598038505
+				</entropyOfFormation>
+				<heatCapacities units="J/(mol*K)">
+					97.9720598982 123.261765446 146.204976271 166.203151479 196.693257037 216.835857217 250.547296834
+				</heatCapacities>
+			</thermoData>
+			<groundStateEnergy units="kJ/mol">
+				106.300819818
+			</groundStateEnergy>
+			<spectralData>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2750.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2850.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1437.5
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1250.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1305.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						750.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						350.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2950.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3000.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3050.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3100.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1330.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1430.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						900.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1050.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1000.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1050.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2995.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						3025.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						975.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1000.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1300.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1375.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						400.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						500.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1630.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						1680.0
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						643.717789344
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						188.252976002
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						931.065628301
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<harmonicOscillator>
+					<frequency units="cm^-1">
+						2943.99646565
+					</frequency>
+					<degeneracy>
+						1
+					</degeneracy>
+				</harmonicOscillator>
+				<hinderedRotor>
+					<frequency units="cm^-1">
+						474.876269298
+					</frequency>
+					<barrier units="cm^-1">
+						1431.1300717
+					</barrier>
+					<degeneracy>
+						2
+					</degeneracy>
+				</hinderedRotor>
+				<symmetryNumber>
+					1
+				</symmetryNumber>
+			</spectralData>
+		</species>
+		<species id="N#N">
+			<structure format="SMILES">
+				N#N
+			</structure>
+			<lennardJones>
+				<sigma units="m">
+					3.74e-10
+				</sigma>
+				<epsilon units="J">
+					1.132133328e-21
+				</epsilon>
+			</lennardJones>
+			<expDownParam units="kJ/mol">
+				20.33424
+			</expDownParam>
+		</species>
+	</speciesList>
+	<reactionList>
+		<reaction id="rxn1">
+			<reactant ref="[CH3]"/>
+			<reactant ref="C(=C)C=[CH]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="m^3/(mol^1*s)">
+					10000000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn2">
+			<reactant ref="C(=C[CH2])C=C"/>
+			<reactant ref="[H]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="m^3/(mol^1*s)">
+					50000000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn3">
+			<reactant ref="C(=C[CH2])C=C"/>
+			<reactant ref="[H]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="m^3/(mol^1*s)">
+					50000000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn4">
+			<reactant ref="C(=C[CH2])C=C"/>
+			<reactant ref="[H]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="m^3/(mol^1*s)">
+					50000000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn5">
+			<reactant ref="[CH3]"/>
+			<reactant ref="C(=C)C=[CH]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="m^3/(mol^1*s)">
+					10000000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn6">
+			<reactant ref="[H]"/>
+			<reactant ref="C[C]=CC=C"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="m^3/(mol^1*s)">
+					10000000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn7">
+			<reactant ref="C=[CH]"/>
+			<reactant ref="CC=[CH]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="m^3/(mol^1*s)">
+					10000000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn8">
+			<reactant ref="[H]"/>
+			<reactant ref="CC=[C]C=C"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="m^3/(mol^1*s)">
+					10000000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn9">
+			<reactant ref="C=[CH]"/>
+			<reactant ref="CC=[CH]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="m^3/(mol^1*s)">
+					10000000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn10">
+			<reactant ref="[H]"/>
+			<reactant ref="CC=C[C]=C"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="m^3/(mol^1*s)">
+					10000000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn11">
+			<reactant ref="[H]"/>
+			<reactant ref="CC=CC=[CH]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="m^3/(mol^1*s)">
+					10000000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn12">
+			<reactant ref="[H]"/>
+			<reactant ref="CC=CC=[CH]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="m^3/(mol^1*s)">
+					10000000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn13">
+			<reactant ref="C(=C[CH2])C=C"/>
+			<reactant ref="[H]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="m^3/(mol^1*s)">
+					50000000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn14">
+			<reactant ref="C(=C[CH2])C=C"/>
+			<reactant ref="[H]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="m^3/(mol^1*s)">
+					50000000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn15">
+			<reactant ref="C(=C[CH2])C=C"/>
+			<reactant ref="[H]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="m^3/(mol^1*s)">
+					50000000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn16">
+			<reactant ref="[H]"/>
+			<reactant ref="C[C]=CC=C"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="m^3/(mol^1*s)">
+					10000000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn17">
+			<reactant ref="[H]"/>
+			<reactant ref="CC=C[C]=C"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="m^3/(mol^1*s)">
+					10000000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn18">
+			<reactant ref="[H]"/>
+			<reactant ref="CC=[C]C=C"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="m^3/(mol^1*s)">
+					10000000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn19">
+			<reactant ref="[H]"/>
+			<reactant ref="CC=CC=[CH]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="m^3/(mol^1*s)">
+					10000000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn20">
+			<reactant ref="[H]"/>
+			<reactant ref="CC=CC=[CH]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="m^3/(mol^1*s)">
+					10000000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn21">
+			<reactant ref="C(C=C)[CH][CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					300000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn22">
+			<reactant ref="C(C=C[CH2])[CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					300000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn23">
+			<reactant ref="C(C=C[CH2])[CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					300000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn24">
+			<reactant ref="C[CH]C=C[CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					22900000.0
+				</preexponential>
+				<exponent>
+					-0.35
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					-0.54392
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn25">
+			<reactant ref="C(C=C)[CH][CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					300000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn26">
+			<reactant ref="C(C=C[CH2])[CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					300000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn27">
+			<reactant ref="C(C=C[CH2])[CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					300000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn28">
+			<reactant ref="C[CH]C=C[CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					22900000.0
+				</preexponential>
+				<exponent>
+					-0.35
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					-0.54392
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn29">
+			<reactant ref="C(C=C)[CH][CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					300000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn30">
+			<reactant ref="C(C=C[CH2])[CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					300000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn31">
+			<reactant ref="C(C=C[CH2])[CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					300000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn32">
+			<reactant ref="C[CH]C=C[CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					22900000.0
+				</preexponential>
+				<exponent>
+					-0.35
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					-0.54392
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn33">
+			<reactant ref="C(C=C[CH2])[CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					300000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn34">
+			<reactant ref="C(C=C[CH2])[CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					300000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn35">
+			<reactant ref="C[CH]C=C[CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					22900000.0
+				</preexponential>
+				<exponent>
+					-0.35
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					-0.54392
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn36">
+			<reactant ref="C[CH]C=C[CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					22900000.0
+				</preexponential>
+				<exponent>
+					-0.35
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					-0.54392
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn37">
+			<reactant ref="C(C=C[CH2])[CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					300000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn38">
+			<reactant ref="C(C=C[CH2])[CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					300000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn39">
+			<reactant ref="C[CH]C=C[CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					22900000.0
+				</preexponential>
+				<exponent>
+					-0.35
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					-0.54392
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn40">
+			<reactant ref="C[CH]C=C[CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					22900000.0
+				</preexponential>
+				<exponent>
+					-0.35
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					-0.54392
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn41">
+			<reactant ref="C(C=C[CH2])[CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					300000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn42">
+			<reactant ref="C(C=C[CH2])[CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					300000.0
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					0.0
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn43">
+			<reactant ref="C[CH]C=C[CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					22900000.0
+				</preexponential>
+				<exponent>
+					-0.35
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					-0.54392
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn44">
+			<reactant ref="C[CH]C=C[CH2]"/>
+			<product ref="CC=CC=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					22900000.0
+				</preexponential>
+				<exponent>
+					-0.35
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					-0.54392
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+		<reaction id="rxn45">
+			<reactant ref="CC=CC=C"/>
+			<product ref="C(C=C)C=C"/>
+			<kinetics type="Arrhenius">
+				<preexponential units="s^-1">
+					0.1
+				</preexponential>
+				<exponent>
+					0.0
+				</exponent>
+				<activationEnergy units="kJ/mol">
+					41.84
+				</activationEnergy>
+			</kinetics>
+		</reaction>
+	</reactionList>
+	<bathGasList>
+		<bathGas ref="N#N"/>
+	</bathGasList>
+	<optionList>
+		<temperatures units="K">
+			300.0 400.0 500.0 600.0 800.0 1000.0 1500.0 2000.0
+		</temperatures>
+		<pressures units="bar">
+			0.01 0.1 1.0 10.0 100.0
+		</pressures>
+		<grainSize units="kJ/mol">
+			8.10686432161
+		</grainSize>
+		<method>
+			reservoirState
+		</method>
+		<interpolationModel type="none"/>
+	</optionList>
+</rmginput>
