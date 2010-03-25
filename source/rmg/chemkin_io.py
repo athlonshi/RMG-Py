@@ -36,6 +36,7 @@ thermodynamic file (therm.dat)
 import quantities as pq
 import log as logging
 import os
+import math
 
 import constants
 import settings
@@ -153,17 +154,20 @@ def writeMech(fstr, reactionModel, reactionSystems):
                         Pmax1.units = pq.atm
                         string += "\nTCHEB/%8.3f\t%8.3f/" %(rxn.kinetics.Tmin, rxn.kinetics.Tmax)
                         string += "\nPCHEB/%8.3f\t%8.3f/" %(Pmin1, Pmax1)
-                        string += "\nCHEB/%d\t%d\t%s/" % (rxn.kinetics.degreeT,rxn.kinetics.degreeP, str(rxn.kinetics.coeffs[T2,:])[1:-1])
+                        unitConvert = math.log10(100**((len(rxn.reactants)-1)*3)) #According to Cheb
+                        string += "\nCHEB/%d\t%d\t%s/" % (rxn.kinetics.degreeT,rxn.kinetics.degreeP, \
+                        str(rxn.kinetics.coeffs[0,0]+unitConvert)+"\t"+str(rxn.kinetics.coeffs[T2,1:rxn.kinetics.degreeP])[1:-1])
                     else:
                         string += "\nCHEB/%s/" % (str(rxn.kinetics.coeffs[T2,:])[1:-1])
             else:
                 kcount = 0
+                #Note chemkin use cm instead of m in RMG, so the unit of reaction rate has to be converted
                 for k in rxn.kinetics:
                     kcount += 1
                     if kcount == 1:
-                        string += "\t%12.3e\t%4.2f\t%12.3e\t" %(k.A, k.n, -(k.E0+k.alpha*rxn.getEnthalpyOfReaction(298.15)))
+                        string += "\t%12.3e\t%4.2f\t%12.3e\t" %(k.A*(100**((len(rxn.reactants)-1)*3)), k.n, -(k.E0+k.alpha*rxn.getEnthalpyOfReaction(298.15)))
                     else:
-                        string +="\n!Alternative reaction constant set %d:" % (kcount-1) + "%12.3e\t%4.2f\t%12.3e\t" %(k.A, k.n, -(k.E0+k.alpha*rxn.getEnthalpyOfReaction(298.15)))
+                        string +="\n!Alternative reaction constant set %d:" % (kcount-1) + "%12.3e\t%4.2f\t%12.3e\t" %(k.A*(100**((len(rxn.reactants)-1)*3)), k.n, -(k.E0+k.alpha*rxn.getEnthalpyOfReaction(298.15)))
             #Check duplicated reaction and flag it in chem.inp
             if (reactionModel.core.reactions.count(rxn)>1):
                 string += "\nDUP"
