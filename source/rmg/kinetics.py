@@ -48,7 +48,6 @@ import quantities as pq
 
 import constants
 import data
-
 ################################################################################
 
 class Kinetics:
@@ -586,7 +585,7 @@ class ChebyshevKinetics(Kinetics):
 		for t in range(self.degreeT):
 			for p in range(self.degreeP):
 				k += self.coeffs[t,p] * self.__chebyshev(t, Tred) * self.__chebyshev(p, Pred)
-		return 10.0**k
+                return 10.0**k
 
 
 	def fitToData(self, Tlist, Plist, K, degreeT, degreeP):
