@@ -121,7 +121,7 @@ def writeMech(fstr, reactionModel, reactionSystems):
             chem_file.write("\n!Total species:"+str(speciescount)+"\nEND\n")
 
 #Create reactions list
-        chem_file.write("REACTIONS KJOULES/MOLE MOLECULES\n")
+        chem_file.write("REACTIONS JOULES/MOLE MOLES\n")
         reactioncount = 0
         for rxn in reactionModel.core.reactions:
             reactioncount += 1
@@ -145,7 +145,7 @@ def writeMech(fstr, reactionModel, reactionSystems):
                 string = string[0:-1]
 
             if isinstance(rxn, reaction.PDepReaction):
-		string += "\t0.0\t0.0\t0.0 !Using Chebyshev coefficient, the Arrhenius expression is replaced"
+                string += "\t0.0\t0.0\t0.0 !Using Chebyshev coefficient, the Arrhenius expression is replaced"
                 for T2 in range(rxn.kinetics.degreeT):
                     if (T2 == 0):
                         Pmin1 = rxn.kinetics.Pmin * pq.Pa
@@ -154,7 +154,7 @@ def writeMech(fstr, reactionModel, reactionSystems):
                         Pmax1.units = pq.atm
                         string += "\nTCHEB/%8.3f\t%8.3f/" %(rxn.kinetics.Tmin, rxn.kinetics.Tmax)
                         string += "\nPCHEB/%8.3f\t%8.3f/" %(Pmin1, Pmax1)
-                        unitConvert = math.log10(100**((len(rxn.reactants)-1)*3)) #According to Cheb
+                        unitConvert = math.log10(100**((len(rxn.reactants)-1)*3)) #According to Chebyshev
                         string += "\nCHEB/%d\t%d\t%s/" % (rxn.kinetics.degreeT,rxn.kinetics.degreeP, \
                         str(rxn.kinetics.coeffs[0,0]+unitConvert)+"\t"+str(rxn.kinetics.coeffs[T2,1:rxn.kinetics.degreeP])[1:-1])
                     else:
