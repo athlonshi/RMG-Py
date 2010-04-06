@@ -554,7 +554,7 @@ class CoreEdgeReactionModel:
 							if model[0].lower() == 'chebyshev':
 								modelType, degreeT, degreeP = model
 								chebyshev = ChebyshevKinetics()
-								chebyshev.fitToData(Tlist, Plist, K[:,:,i,j], degreeT, degreeP)
+                                                                chebyshev.fitToData(Tlist, Plist, K[:,:,i,j], degreeT, degreeP)
 								netReaction.kinetics = chebyshev
 							elif model.lower() == 'pdeparrhenius':
 								pDepArrhenius = PDepArrheniusKinetics()

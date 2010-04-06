@@ -42,6 +42,7 @@ Provides classes for working with the kinetics of chemical reactions:
 * :class:`PDepArrheniusKinetics` - Pressure-dependent kinetics modeled with Arrhenius expressions at multiple pressures
 
 """
+import rmg
 
 import math
 import quantities as pq
@@ -564,7 +565,19 @@ class ChebyshevKinetics(Kinetics):
 		self.degreeP = 0
 
 	def __chebyshev(self, n, x):
-		return math.cos(n * math.acos(x))
+                try:
+                    return math.cos(n * math.acos(x))
+#Deal with the problem that round-off digits of x may cause it either larger then 1 or less than -1
+                except ValueError:
+                    if (x < -1):
+                        x = -1
+                        return math.cos(n * math.acos(x))
+                    elif (x > 1):
+                        x = 1
+                        return math.cos(n * math.acos(x))
+                    else:
+                        print "Other error type in chebyshev!\n"
+
 
 	def __getReducedTemperature(self, T):
 		return (2.0/T - 1.0/self.Tmin - 1.0/self.Tmax) / (1.0/self.Tmax - 1.0/self.Tmin)
@@ -613,11 +626,12 @@ class ChebyshevKinetics(Kinetics):
 		# Create matrix and vector for coefficient fit (linear least-squares)
 		A = numpy.zeros((nT*nP, degreeT*degreeP), numpy.float64)
 		b = numpy.zeros((nT*nP), numpy.float64)
-		for t1, T in enumerate(Tred):
+                for t1, T in enumerate(Tred):
 			for p1, P in enumerate(Pred):
 				for t2 in range(degreeT):
 					for p2 in range(degreeP):
-						A[p1*nT+t1, p2*degreeT+t2] = self.__chebyshev(t2, T) * self.__chebyshev(p2, P)
+ #                                               if (T<-1 or T>1 or P<-1 or P>1):import pdb; pdb.set_trace()
+                                                A[p1*nT+t1, p2*degreeT+t2] = self.__chebyshev(t2, T) * self.__chebyshev(p2, P)
 				b[p1*nT+t1] = math.log10(K[t1,p1])
 
 		# Do linear least-squares fit to get coefficients
